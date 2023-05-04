@@ -16,3 +16,4 @@ jobs:
       with:
         token: ${{ secrets.TOKEN }}
         branch: rel
+        repo: RiversideValley/Esmerelda
