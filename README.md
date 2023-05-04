@@ -3,8 +3,8 @@
 #### Your sweet maid.
 
 <p align="center">
-  <a title="GitHub Releases" target="_blank" href="https://github.com/RiversideValley/Esmerelda/tree/stable">
-    <img align="left" src="https://img.shields.io/github/v/release/RiversideValley/Esmerelda?include_prereleases" alt="Release" />
+  <a title="GitHub Releases" target="_blank" href="https://github.com/RiversideValley/Esmerelda/releases/latest">
+    <img align="left" src="https://img.shields.io/github/v/release/RiversideValley/Esmerelda" alt="Release" />
   </a>
   <a title="Platform" target="_blank">
     <img align="left" src="https://img.shields.io/badge/Platform-web-red" alt="Platform" />
