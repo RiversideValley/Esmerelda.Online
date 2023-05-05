@@ -2,20 +2,22 @@
     import { NavBar } from "$lib";
     import { onMount } from "svelte";
     import { ProgressRing, Button, ContentDialog, TextBlock } from "fluent-svelte";
+	import { misc } from "$dash";
 
 	import Alert from "@fluentui/svg-icons/icons/alert_urgent_24_filled.svg?raw"
 
-    	const items = [
+    const items: misc.NavBarItem = [
         {
 			name: "{UserName}",
 			href: "/_federal/account",
-			content: 1,
 			icon: ""
-		},
+		}
+	];
+
+	const items: misc.NavBarIcon = [
 		{
-			name: "",
-			href: "/_notifications",
-			content: 1,
+			name: "Notifications",
+			href: "/_federal/notifications",
 			icon: Alert
 		}
 	];

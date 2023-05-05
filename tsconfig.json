@@ -14,8 +14,10 @@
 			"$lib": ["src/lib/", "src/lib/index"],
 			"$lib/*": ["src/lib/*", "src/lib/index"],
 			"$esme/*": ["src/esme/*"],
+			"$esme": ["src/esme"],
 			"$static/*": ["static/*"],
 			"$dash/*": ["src/dashboard/*"],
+			"$dash": ["src/dashboard"],
 			"$i18n": ["src/i18n/", "src/i18n/index"],
 			"$i18n/*": ["src/i18n/*"],
 		}

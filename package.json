@@ -8,7 +8,7 @@
     "url": "git+https://github.com/RiversideValley/Esmerelda.git"
   },
   "publishConfig": {
-	"@riversidevalley:registry": "https://npm.pkg.github.com"
+	  "@riversidevalley:registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "scripts": {

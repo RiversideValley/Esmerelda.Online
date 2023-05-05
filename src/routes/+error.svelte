@@ -1,3 +1,3 @@
 <script>
-	alert("This is an error page")
+	alert("An error occurred while loading the page.")
 </script>
