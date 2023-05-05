@@ -2,7 +2,7 @@
     import { NavBar } from "$lib";
     import { onMount } from "svelte";
     import { ProgressRing, Button, ContentDialog, TextBlock } from "fluent-svelte";
-	import { misc } from "$dash";
+	import { NavBarItem, NavBarIcon } from "$dash/misc";
 
 	import Alert from "@fluentui/svg-icons/icons/alert_urgent_24_filled.svg?raw"
 
