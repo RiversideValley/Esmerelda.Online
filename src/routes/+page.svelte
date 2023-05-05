@@ -6,7 +6,7 @@
 
 	import Alert from "@fluentui/svg-icons/icons/alert_urgent_24_filled.svg?raw"
 
-    const items: misc.NavBarItem = [
+    const NavBarItems: misc.NavBarItem = [
         {
 			name: "{UserName}",
 			href: "/_federal/account",
@@ -14,7 +14,7 @@
 		}
 	];
 
-	const items: misc.NavBarIcon = [
+	const NavBarIcons: misc.NavBarIcon = [
 		{
 			name: "Notifications",
 			href: "/_federal/notifications",
@@ -33,5 +33,5 @@
 	});
 </script>
 
-<NavBar {items} />
+<NavBar {NavBarItems} />
 
