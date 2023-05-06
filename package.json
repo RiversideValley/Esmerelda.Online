@@ -1,6 +1,6 @@
 {
 	"name": "@riversidevalley/esmerelda",
-	"version": "0.2.0@can",
+	"version": "0.2.0",
 	"description": "Dashboard interface for your sweet maid.",
 	"homepage": "https://www.esmerelda.tech",
 	"repository": {
