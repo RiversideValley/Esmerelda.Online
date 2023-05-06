@@ -10,7 +10,6 @@
         {
 			name: "{UserName}",
 			path: "/_federal/account",
-			external: false,
 			icon: ""
 		}
 	];

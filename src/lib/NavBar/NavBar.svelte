@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	import { TextBlock } from "fluent-svelte";
+	import { externalLink } from "$lib";
 
-	interface Item {
+	interface NavBarItem {
 		path: string;
 		name: string;
 		icon?: string;
 	}
 
-	export let items: Item[];
+	export let NavBarItems: NavBarItem[];
 </script>
 
 <header class="navbar">
@@ -18,9 +19,9 @@
 			Esmerelda <TextBlock variant="caption">dev</TextBlock>
 		</a>
 		<nav>
-			{#each items as { path, name, icon }}
+			{#each NavBarItems as { path, name, icon }}
 				<a
-					{path}
+					href={path}
 					sveltekit:prefetch
 					class:selected={$page.url.pathname === path ||
 						($page.url.pathname.split("/").length > 1 &&

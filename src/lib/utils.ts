@@ -14,7 +14,6 @@ export const externalLink: Partial<HTMLAnchorElement> = {
 export type NavBarItem = {
 	name: string;
 	path: string;
-	external?: boolean;
 	icon?: string;
 };
 
