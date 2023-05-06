@@ -1,23 +1,24 @@
 <script lang="ts">
     import { NavBar } from "$lib";
+	import type { NavBarIcon, NavBarItem } from "$lib";
     import { onMount } from "svelte";
     import { ProgressRing, Button, ContentDialog, TextBlock } from "fluent-svelte";
-	import { NavBarItem, NavBarIcon } from "$dash/misc";
 
 	import Alert from "@fluentui/svg-icons/icons/alert_urgent_24_filled.svg?raw"
 
-    const NavBarItems: misc.NavBarItem = [
+    const NavBarItems: NavBarItem = [
         {
 			name: "{UserName}",
-			href: "/_federal/account",
+			path: "/_federal/account",
+			external: false,
 			icon: ""
 		}
 	];
 
-	const NavBarIcons: misc.NavBarIcon = [
+	const NavBarIcons: NavBarIcon = [
 		{
 			name: "Notifications",
-			href: "/_federal/notifications",
+			path: "/_federal/notifications",
 			icon: Alert
 		}
 	];
@@ -32,6 +33,11 @@
 		});
 	});
 </script>
+<svelte:head>
+	<title>Esmerelda</title>
+	<meta name="description" content="Your sweet maid." />
+	<meta name="keywords" content="Esmerelda, Esmereld, Esmeralda, Esmerelda.tech, Esmereld.tech, Esmeralda.tech, Riverside, Cloud, Cloud computing, cloud-compute, Microsoft.Compute, AWS, Azure, Snowflake, Riverside Valley Corporation, Riverside Valley" />
+</svelte:head>
 
 <NavBar {NavBarItems} />
 

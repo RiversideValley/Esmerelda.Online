@@ -15,7 +15,7 @@
 
 ---
 
-<!--## 🎁 Download 
+<!--## 🎁 Download
 
 ### 📦 Node Package Manager
 
@@ -51,7 +51,7 @@ There are multiple ways to participate in the community:
    └──Esme.Intelligence              // Intelligence repository
 ```
    └──Esme.Hypervisor                // Simulation software-->
-   
+
 ### 🗃️ Contributors
 
 <a href="https://github.com/RiversideValley/Esmerelda/graphs/contributors">

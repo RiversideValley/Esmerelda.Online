@@ -123,7 +123,7 @@
 	.language-autohotkey .selector,
 	.language-json .boolean,
 	.language-json .number,
-	&[class*="language-css"] {
+	&[class*='language-css'] {
 		color: #00f;
 	}
 
@@ -190,18 +190,18 @@
 		color: #d4d4d4;
 	}
 
-	&[class*="language-javascript"],
-	&[class*="language-jsx"],
-	&[class*="language-typescript"],
-	&[class*="language-tsx"] {
+	&[class*='language-javascript'],
+	&[class*='language-jsx'],
+	&[class*='language-typescript'],
+	&[class*='language-tsx'] {
 		color: #9cdcfe;
 	}
 
-	&[class*="language-css"] {
+	&[class*='language-css'] {
 		color: #ce9178;
 	}
 
-	&[class*="language-html"] {
+	&[class*='language-html'] {
 		color: #d4d4d4;
 	}
 

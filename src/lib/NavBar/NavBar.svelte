@@ -3,7 +3,7 @@
 	import { TextBlock } from "fluent-svelte";
 
 	interface Item {
-		href: string;
+		path: string;
 		name: string;
 		icon?: string;
 	}
@@ -18,16 +18,16 @@
 			Esmerelda <TextBlock variant="caption">dev</TextBlock>
 		</a>
 		<nav>
-			{#each items as { href, name, icon }}
+			{#each items as { path, name, icon }}
 				<a
-					{href}
+					{path}
 					sveltekit:prefetch
-					class:selected={$page.url.pathname === href ||
+					class:selected={$page.url.pathname === path ||
 						($page.url.pathname.split("/").length > 1 &&
-							href.split("/").length > 1 &&
-							$page.url.pathname.startsWith(href) &&
-							!(href === "" || href === "/")) ||
-						(href === "/" && $page.url.pathname === "")}
+							path.split("/").length > 1 &&
+							$page.url.pathname.startsWith(path) &&
+							!(path === "" || path === "/")) ||
+						(path === "/" && $page.url.pathname === "")}
 				>
 					{#if icon}
 						{@html icon}

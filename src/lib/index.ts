@@ -10,8 +10,8 @@
 // export { default as BlogCard } from "./BlogCard/BlogCard.svelte";
 // export { default as Metadata } from "./Metadata.svelte";
 // export { default as ProductCard } from "./Professional/ProductCard/ProductCard.svelte";
-   export { default as NavBar } from "./NavBar/NavBar.svelte";
+export { default as NavBar } from './NavBar/NavBar.svelte';
 
 // Actions
-export * from "./utils";
-export { default as tilt } from "./tilt";
+export * from './utils';
+export { default as tilt } from './tilt';

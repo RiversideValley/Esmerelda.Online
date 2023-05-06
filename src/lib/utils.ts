@@ -7,6 +7,20 @@
  * ```
  */
 export const externalLink: Partial<HTMLAnchorElement> = {
-	target: "_blank",
-	rel: "noreferrer noopener"
+	target: '_blank',
+	rel: 'noreferrer noopener'
+};
+
+export type NavBarItem = {
+	name: string;
+	path: string;
+	external?: boolean;
+	icon?: string;
+};
+
+export type NavBarIcon = {
+	name?: string;
+	path: string;
+	external?: boolean;
+	icon: string;
 };

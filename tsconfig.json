@@ -19,7 +19,7 @@
 			"$dash/*": ["src/dashboard/*"],
 			"$dash": ["src/dashboard"],
 			"$i18n": ["src/i18n/", "src/i18n/index"],
-			"$i18n/*": ["src/i18n/*"],
+			"$i18n/*": ["src/i18n/*"]
 		}
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias

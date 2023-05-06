@@ -1,1 +1,1 @@
-export { default as Dashboard } from "./dash.svelte";
+export { default as Dashboard } from './dash.svelte';
