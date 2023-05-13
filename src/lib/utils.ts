@@ -3,7 +3,7 @@
  *
  * Usage:
  * ```
- * <a href="https://example.com/" {...external}>Example</a>
+ * <a href="https://example.com/" {...externalLink}>Example</a>
  * ```
  */
 export const externalLink: Partial<HTMLAnchorElement> = {
@@ -23,3 +23,7 @@ export type NavBarIcon = {
 	external?: boolean;
 	icon: string;
 };
+
+export function Error () {
+	alert("An error occurred while loading the page.")
+}

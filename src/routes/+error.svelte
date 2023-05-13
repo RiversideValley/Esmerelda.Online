@@ -1,3 +1,4 @@
 <script>
-	alert("An error occurred while loading the page.")
+	import { Error } from "$lib";
+	Error()
 </script>

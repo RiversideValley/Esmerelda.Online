@@ -15,3 +15,22 @@ export { default as NavBar } from './NavBar/NavBar.svelte';
 // Actions
 export * from './utils';
 export { default as tilt } from './tilt';
+
+import type { NavBarIcon, NavBarItem } from './utils';
+import Alert from "@fluentui/svg-icons/icons/alert_urgent_24_filled.svg?raw"
+
+export const NavBarItems: NavBarItem = [
+    {
+        name: "{UserName}",
+        path: "/_federal/account",
+        icon: ""
+    }
+];
+
+export const NavBarIcons: NavBarIcon = [
+    {
+        name: "Notifications",
+        path: "/_federal/notifications",
+        icon: Alert
+    }
+];

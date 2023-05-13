@@ -1,0 +1,36 @@
+{
+  "background_color": "#ffffff",
+  "description": "Your sweet maid.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Esmerelda",
+  "orientation": "natural",
+  "scope": "/",
+  "short_name": "Esme",
+  "start_url": "/",
+  "theme_color": "#015fb8",
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://cloud.esmerelda.tech/Branding/Assets/Esmerelda/Logo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": false
+}

@@ -1,6 +1,6 @@
 {
 	"name": "@riversidevalley/esmerelda",
-	"version": "0.2.0",
+	"version": "0.3.1",
 	"description": "Dashboard interface for your sweet maid.",
 	"homepage": "https://www.esmerelda.tech",
 	"repository": {
@@ -21,7 +21,6 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
-		"@azure/msal-browser": "^2.37.0",
 		"@fluentui/svg-icons": "^1.1.198",
 		"@sveltejs/adapter-vercel": "^2.4.3",
 		"@sveltejs/kit": "^1.5.0",
@@ -56,5 +55,8 @@
 		"online",
 		"website"
 	],
-	"author": "Riverside Valley Corporation"
+	"author": "Riverside Valley Corporation",
+	"devDependencies": {
+		"window": "^4.2.7"
+	}
 }

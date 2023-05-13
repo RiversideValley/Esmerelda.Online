@@ -1,3 +1,0 @@
-<p>
-    Callback
-</p>
