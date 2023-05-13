@@ -28,6 +28,7 @@
 			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 		})(window, document, "clarity", "script", "h04bvde4tj");
 	</script>
+	<link rel="manifest" href="manifest.json" />
 	<title>Esmerelda</title>
 	<meta name="description" content="Your sweet maid." />
 	<meta name="keywords" content="Esmerelda, Esmereld, Esmeralda, Esmerelda.tech, Esmereld.tech, Esmeralda.tech, Riverside, Cloud, Cloud computing, cloud-compute, Microsoft.Compute, AWS, Azure, Snowflake, Riverside Valley Corporation, Riverside Valley, Hyper, Hyper Platform, Hypercloud, Hyperflare, Hypercomponents, Streamliner, Protocol, Protocol Interconnect, Hyperstream, Hyperlogin, Hyperstatic, Hyperlogic, Hype, Esmerelda Hyper, Esme, Esme Relda, Esmerelda Hyper Platform" />
