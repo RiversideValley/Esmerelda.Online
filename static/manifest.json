@@ -27,7 +27,7 @@
     },
     {
       "src": "https://cloud.esmerelda.tech/Branding/Assets/Esmerelda/Logo.LesserQuality.png",
-      "type": "any",
+      "type": "image/any",
       "sizes": "256x256"
     }
   ],
