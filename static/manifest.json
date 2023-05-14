@@ -37,5 +37,13 @@
     "standalone",
     "minimal-ui"
   ],
-  "prefer_related_applications": false
+  "prefer_related_applications": true,
+  "iarc_rating_id": "\t967af9be-3b74-4886-8859-b45deeb0818c",
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://apps.microsoft.com/store/detail/9PGNS65GBK0F",
+      "id": "9PGNS65GBK0F"
+    }
+  ]
 }
