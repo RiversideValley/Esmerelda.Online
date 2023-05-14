@@ -19,11 +19,16 @@
     {
       "src": "https://cloud.esmerelda.tech/Branding/Assets/Esmerelda/Logo.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "1024x1024"
     },
     {
       "src": "/favicon.ico",
       "type": "image/x-icon"
+    },
+    {
+      "src": "https://cloud.esmerelda.tech/Branding/Assets/Esmerelda/Logo.LesserQuality.png",
+      "type": "any",
+      "sizes": "256x256"
     }
   ],
   "shortcuts": [],
