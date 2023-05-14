@@ -34,8 +34,7 @@
   "shortcuts": [],
   "lang": "en",
   "display_override": [
-    "standalone",
-    "minimal-ui"
+    "standalone"
   ],
   "prefer_related_applications": true,
   "iarc_rating_id": "\t967af9be-3b74-4886-8859-b45deeb0818c",
